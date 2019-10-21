@@ -1,11 +1,14 @@
 
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span><img src="./assets/devglan.png"></span>
+    <span class="example-fill-remaining-space"></span>
+    <span class="example-spacer"></span>
 
-<div>
-  <nav>
-      <a routerLink="">login</a>
-      <a routerLink="/list-user">list-user</a>
+    <a routerLink=""><button mat-button>Login</button></a>
+    <a routerLink="/list-user"><button mat-button>Users</button></a>
     
-  </nav>  
-</div>
+  </mat-toolbar-row>
+</mat-toolbar>
 
 <router-outlet></router-outlet>
